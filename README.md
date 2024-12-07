@@ -59,7 +59,9 @@ Contacts are encrypted with a small RSA example (not secure in production). On s
 
 8. Additional Resources
 -----------------------
-- RSA concept reference: https://simple.wikipedia.org/wiki/RSA_(algorithm)
+- RSA concept reference:
+- Cracking Codes with Python - Chapter 22-24
+-  https://simple.wikipedia.org/wiki/RSA_(algorithm)
 - Win32 GUI programming: https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list
 
 9. Support
