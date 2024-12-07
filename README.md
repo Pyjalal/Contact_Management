@@ -25,6 +25,7 @@ For MinGW:
 Ensure that the Resource Script (containing the dialog resource) is included. Put  .rc file in the same folder, compile it as well and link it.
 
 In the terminal copy and paste:
+
 windres Resource.rc -O coff -o Resource.o
 
 
