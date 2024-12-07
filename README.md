@@ -14,8 +14,7 @@ This Contact Management System is a C-based application for managing a list of c
 3. How to Compile
 -----------------
 Use the provided build command or manually compile:
-In the terminal copy and paste:
-windres Resource.rc -O coff -o Resource.o
+
 
 For MSVC:
     cl /EHsc /O2 /W4 ContactManager.c /link comctl32.lib user32.lib gdi32.lib
@@ -24,6 +23,10 @@ For MinGW:
     gcc -o ContactManager.exe ContactManager.c -lcomctl32 -lgdi32 -luser32
 
 Ensure that the Resource Script (containing the dialog resource) is included. Put  .rc file in the same folder, compile it as well and link it.
+
+In the terminal copy and paste:
+windres Resource.rc -O coff -o Resource.o
+
 
 4. How to Run
 -------------
