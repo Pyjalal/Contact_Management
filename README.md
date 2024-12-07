@@ -2,6 +2,7 @@
 How to Compile:
 
 In the terminal paste:
+
 windres Resource.rc -O coff -o Resource.o
 
 followed by
