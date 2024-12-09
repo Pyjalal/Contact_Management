@@ -165,7 +165,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
             AppendMenu(hFileMenu, MF_STRING, IDM_SAVE,        "Save (RSA Encrypted)");
             AppendMenu(hFileMenu, MF_STRING, IDM_LOAD,        "Load (RSA Decrypted)");
             AppendMenu(hFileMenu, MF_STRING, IDM_EXIT,        "Exit");
-            AppendMenu(hMenu, MF_STRING | MF_POPUP, (UINT_PTR)hFileMenu, "File");
+            AppendMenu(hMenu, MF_STRING | MF_POPUP, (UINT_PTR)hFileMenu, "Menu");
             SetMenu(hwnd, hMenu);
 
             // Create UI elements for searching contacts by name
