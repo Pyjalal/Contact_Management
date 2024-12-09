@@ -18,6 +18,7 @@ Use the provided build command or manually compile:
 
 
 For MinGW: 
+
 gcc -o ContactManager.exe ContactManager.c Resource.o -lcomctl32 -lgdi32 -luser32 -lole32 -lshell32 -o3
 
 Ensure that the Resource Script (containing the dialog resource) is included. Put  .rc file in the same folder, compile it as well and link it.
