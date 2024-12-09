@@ -13,7 +13,7 @@ This Contact Management System is a C-based application for managing a list of c
 
 3. How to Compile
 -----------------
-Use the provided build command or manually compile:
+Use the provided build command to compile:
 
 
 
