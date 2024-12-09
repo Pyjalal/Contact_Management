@@ -8,7 +8,7 @@ This Contact Management System is a C-based application for managing a list of c
 2. Requirements
 ---------------
 - Windows Operating System.
-- A C compiler with Windows API support (e.g., MinGW or MSVC).
+- A C compiler with Windows API support (MinGW).
 - ComCtl32 library for GUI controls.
 
 3. How to Compile
@@ -16,11 +16,9 @@ This Contact Management System is a C-based application for managing a list of c
 Use the provided build command or manually compile:
 
 
-For MSVC:
-    cl /EHsc /O2 /W4 ContactManager.c /link comctl32.lib user32.lib gdi32.lib
 
-For MinGW:
-    gcc -o ContactManager.exe ContactManager.c -lcomctl32 -lgdi32 -luser32
+For MinGW: 
+gcc -o ContactManager.exe ContactManager.c Resource.o -lcomctl32 -lgdi32 -luser32 -lole32 -lshell32 -o3
 
 Ensure that the Resource Script (containing the dialog resource) is included. Put  .rc file in the same folder, compile it as well and link it.
 
