@@ -21,7 +21,7 @@ windres Resource.rc -O coff -o Resource.o
 
 For MinGW: 
 
-gcc -o ContactManager.exe ContactManager.c Resource.o -lcomctl32 -lgdi32 -luser32 -lole32 -lshell32 -o3
+gcc -o ContactManager.exe ContactManager.c Resource.o -lcomctl32 -lgdi32 -luser32 -lole32 -lshell32 
 
 Ensure that the Resource Script (containing the dialog resource) is included. Put  .rc file in the same folder, compile it as well and link it.
 
