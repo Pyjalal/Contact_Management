@@ -11,6 +11,8 @@ This Contact Management System is a C-based application for managing a list of c
 -Resource.rc file
 
 -ContactManager.c file
+
+- Git installed
 - Windows Operating System.
 - A C compiler with Windows API support (MinGW).
 - ComCtl32 library for GUI controls.
